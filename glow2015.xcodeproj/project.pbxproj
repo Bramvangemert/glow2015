@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94C3F1E01BAAA9E700AAAD13 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C3F1DF1BAAA9E700AAAD13 /* DetailsViewController.swift */; };
+		94C3F1E21BAAA9F500AAAD13 /* MoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C3F1E11BAAA9F500AAAD13 /* MoreDetailsViewController.swift */; };
 		94F52B7A1BAA9B33005050CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F52B791BAA9B33005050CD /* AppDelegate.swift */; };
 		94F52B7C1BAA9B33005050CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F52B7B1BAA9B33005050CD /* ViewController.swift */; };
 		94F52B7F1BAA9B33005050CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F52B7D1BAA9B33005050CD /* Main.storyboard */; };
 		94F52B811BAA9B33005050CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F52B801BAA9B33005050CD /* Images.xcassets */; };
 		94F52B841BAA9B33005050CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F52B821BAA9B33005050CD /* LaunchScreen.xib */; };
 		94F52B901BAA9B33005050CD /* glow2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F52B8F1BAA9B33005050CD /* glow2015Tests.swift */; };
+		94F52B9C1BAA9F41005050CD /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F52B9B1BAA9F41005050CD /* GeneralViewController.swift */; };
+		94F52B9E1BAAA051005050CD /* EasterEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F52B9D1BAAA051005050CD /* EasterEggViewController.swift */; };
+		94F52BA01BAAA271005050CD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F52B9F1BAAA271005050CD /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94C3F1DF1BAAA9E700AAAD13 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		94C3F1E11BAAA9F500AAAD13 /* MoreDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreDetailsViewController.swift; sourceTree = "<group>"; };
 		94F52B741BAA9B33005050CD /* glow2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glow2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F52B781BAA9B33005050CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F52B791BAA9B33005050CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,9 @@
 		94F52B891BAA9B33005050CD /* glow2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glow2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F52B8E1BAA9B33005050CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F52B8F1BAA9B33005050CD /* glow2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glow2015Tests.swift; sourceTree = "<group>"; };
+		94F52B9B1BAA9F41005050CD /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		94F52B9D1BAAA051005050CD /* EasterEggViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasterEggViewController.swift; sourceTree = "<group>"; };
+		94F52B9F1BAAA271005050CD /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +90,14 @@
 				94F52B791BAA9B33005050CD /* AppDelegate.swift */,
 				94F52B7B1BAA9B33005050CD /* ViewController.swift */,
 				94F52B7D1BAA9B33005050CD /* Main.storyboard */,
+				94F52B9F1BAAA271005050CD /* AboutViewController.swift */,
 				94F52B801BAA9B33005050CD /* Images.xcassets */,
 				94F52B821BAA9B33005050CD /* LaunchScreen.xib */,
 				94F52B771BAA9B33005050CD /* Supporting Files */,
+				94F52B9B1BAA9F41005050CD /* GeneralViewController.swift */,
+				94F52B9D1BAAA051005050CD /* EasterEggViewController.swift */,
+				94C3F1DF1BAAA9E700AAAD13 /* DetailsViewController.swift */,
+				94C3F1E11BAAA9F500AAAD13 /* MoreDetailsViewController.swift */,
 			);
 			path = glow2015;
 			sourceTree = "<group>";
@@ -212,8 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F52B9C1BAA9F41005050CD /* GeneralViewController.swift in Sources */,
 				94F52B7C1BAA9B33005050CD /* ViewController.swift in Sources */,
+				94F52B9E1BAAA051005050CD /* EasterEggViewController.swift in Sources */,
+				94C3F1E21BAAA9F500AAAD13 /* MoreDetailsViewController.swift in Sources */,
+				94F52BA01BAAA271005050CD /* AboutViewController.swift in Sources */,
 				94F52B7A1BAA9B33005050CD /* AppDelegate.swift in Sources */,
+				94C3F1E01BAAA9E700AAAD13 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +429,7 @@
 				94F52B951BAA9B33005050CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94F52B961BAA9B33005050CD /* Build configuration list for PBXNativeTarget "glow2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				94F52B981BAA9B33005050CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
