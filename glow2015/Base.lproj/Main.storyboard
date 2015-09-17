@@ -43,7 +43,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="2H4-pn-F59"/>
+                    <tabBarItem key="tabBarItem" title="About" id="2H4-pn-F59"/>
                     <connections>
                         <outlet property="TextField" destination="Hgh-39-t1C" id="l43-VD-D8p"/>
                     </connections>
@@ -73,7 +73,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="gLq-hO-Vy7"/>
+                    <tabBarItem key="tabBarItem" title="General" id="gLq-hO-Vy7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mgk-fg-AFC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -200,7 +200,7 @@
         <scene sceneID="3qh-8O-Ibf">
             <objects>
                 <navigationController title="Details" automaticallyAdjustsScrollViewInsets="NO" id="1DW-XD-Hu4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="5cE-U2-bmM"/>
+                    <tabBarItem key="tabBarItem" title="Details" id="5cE-U2-bmM"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Yl-kk-dMU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
